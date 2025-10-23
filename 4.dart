@@ -1,4 +1,6 @@
 //async
+import '3.dart';
+
 const oneSecond = Duration(seconds: 1);
 
 Future <void> printWithDelay (String message) async {
@@ -20,6 +22,15 @@ Future <void> printWithDelay1 (String message){
     print(message);
   });
 }
+
+//iterable when you can go element by element in for loop with obj in objects 
+Stream <String> report(Spacecraft craft, Iterable<String> objects) async*{
+
+}
+//Stream Useful for things like UI events, where many listeners may want updates
+
+//diff between async - use in future and asnyc* - use in stream
+
 
 
 void main(){
