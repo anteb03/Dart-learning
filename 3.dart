@@ -68,9 +68,12 @@ mixin Piloted{
   }
 }
 
-//class PilotedCraft extends Spacecraft with Piloted {
-  // ···
-//}
+class PilotedCraft  with Piloted { //mixin using with Piloted
+  @override
+  void describeCrew() {
+    print('HAHAHA');
+  }
+}
 
 
 
