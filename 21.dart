@@ -1,4 +1,4 @@
-//extensions
+//extensions - changing existing type of class without chnging original code
 
 extension NumberParsing on String{
   int parseInt(){
